@@ -1,0 +1,16 @@
+  997  crontab -e
+  998  crontab -l
+  999  pip show tensorflow install yfinance matplotlib
+ 1000  pip install yfinance matplotlib
+ 1001  docker run hello-world
+ 1002  docker run hello-world
+ 1003  cd desktop
+ 1004  cd lab
+ 1005  cd lab11-Docker
+ 1006  docker build --tag=hellodocker .
+ 1007  docker image ls
+ 1008  docker run -p 4000:80 hellodocker
+ 1009  docker image rm hellodocker
+ 1010  docker container stop 2cc9aa14d677
+ 1011  docker container rm 2cc9aa14d677
+ 1012  docker image rm hellodocker
